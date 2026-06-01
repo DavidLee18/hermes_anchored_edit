@@ -1,0 +1,7 @@
+name: hermes_anchored_edit
+version: 1.0.0
+description: Content-anchored file tools for Hermes — whitespace/escape-tolerant single and atomic-batch editing, plus targeted slice reading. Fewer failed edits, fewer round-trips, leaner context.
+provides_tools:
+  - smart_patch
+  - smart_patch_batch
+  - read_relevant
